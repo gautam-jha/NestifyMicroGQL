@@ -1,0 +1,24 @@
+{
+  "name": "nestify-micro-grpc-gql",
+  "version": "1.0.0",
+  "description": "A gRPC project for beginners",
+  "main": "index.js",
+  "scripts": {
+    "start:svc": "scripts/start-all-service.sh",
+    "start:gateway": "cd api-gateway && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gautam-jha/NestifyMicroGQL.git"
+  },
+  "author": "Gautam Jha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gautam-jha/NestifyMicroGQL/issues"
+  },
+  "homepage": "https://github.com/gautam-jha/NestifyMicroGQL#readme",
+  "dependencies": {
+    "@nestjs/apollo": "^12.0.7",
+    "@nestjs/graphql": "^12.0.7"
+  }
+}
